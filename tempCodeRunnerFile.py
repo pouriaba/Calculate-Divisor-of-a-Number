@@ -1,9 +1,8 @@
 x = int(input("input a number :"))
 n = 1
-li = []
+l = []
 while n <= x:
     if x % n == 0:
-        li.append(n)
+        l.append(n)
     n += 1
-print(li)
-
+print(l)
